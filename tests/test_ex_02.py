@@ -1,5 +1,5 @@
 import unittest
-from exercises.ex_02 import find_numbers  # Adjust the import path as needed
+from exercises.ex_02 import find_numbers
 
 
 class TestFindNumbers(unittest.TestCase):
