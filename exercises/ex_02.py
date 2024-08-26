@@ -5,9 +5,9 @@
 - Topics: Loops, Conditionals, List Comprehension
 
 # Instructions
-Write a function called `find_numbers(min, max)` to find all numbers which are 
-divisible by 7 but are not multiples of 5, between the given range of `min` and 
-`max` (both included). Return a list of these numbers.
+Write a function called `find_numbers(min, max)` to find all integers(+ve and -ve) which are 
+multiples of 7 but are natural numbers(only +ve) and are not multiples of 5, between the 
+given range of `min` and `max` (both included). Return a list of these numbers.
 
 # How to Test
 Run the following command in your terminal:
