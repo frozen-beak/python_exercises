@@ -25,6 +25,5 @@ python -m unittest tests.test_ex_01
 """
 
 
-# TODO: Implement the hello() function
 def hello():
-    pass  # Replace this 'pass' with your implementation
+    return "Hello, World!"

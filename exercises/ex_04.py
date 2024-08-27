@@ -36,6 +36,13 @@ python -m unittest tests.test_ex_04
 
 
 def get_squares(n):
-    # Implement the function to return dictionary containing squares of numbers
-    # from 0 to n (both included)
-    pass
+
+    if not isinstance(n, int) or n < 1:
+        raise ValueError("N should only be a positive integer")
+
+    squares = {}
+
+    for i in range(1, n + 1):
+        squares[i] = i * i
+
+    return squares
