@@ -1,7 +1,4 @@
 import unittest
-import sys
-import os
-
 from exercises.ex_01 import hello
 
 
