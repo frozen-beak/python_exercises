@@ -15,6 +15,14 @@ validates the input, and returns the words in a comma-separated sequence after s
 Input: without, hello, bag, world
 Output: ["bag", "hello", "without", "world"]
 
+
+## How to Test
+
+Run the following command in your terminal:
+```bash
+python -m unittest tests.test_ex_07
+```
+
 ## Hints:
 - `sequence` is a string of words separated by commas(,).
 - Any leading or trailing spaces in the words should be ignored.
