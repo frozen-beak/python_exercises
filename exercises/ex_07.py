@@ -12,9 +12,8 @@ validates the input, and returns the words in a comma-separated sequence after s
 
 ## Example
 
-Input: without, hello, bag, world
-Output: ["bag", "hello", "without", "world"]
-
+Input: "without, hello, bag, world"
+Output: "bag,hello,without,world"
 
 ## How to Test
 
